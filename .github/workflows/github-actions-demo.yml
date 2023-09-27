@@ -5,10 +5,10 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "welcome to github actions"
+        run: echo "welcome to github actions"
       
       - name: build code  
-      - run: echo "build code"
+        run: echo "build code"
       
       - name: List files in the repository
         run: |
